@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hojas de estilo</title>
+        <meta charset="utf-8">
+        <!--  Hoja de estilos interna  -->
+        <style>
+            body {
+                background-image: url("https://wallpaperaccess.com/full/4603286.png");
+                color: #ffffff; /* Cambia el color del texto a blanco */
+            }
+
+            #wrapper {
+                width: 45%;
+                margin: 0 auto;
+                border-radius: 10px;
+                padding: 20px;
+            }
+
+            #artista h1 {
+                font-family: 'Edu', sans-serif;
+                font-size: 5em; /* Aumenta el tamaño del texto */
+                margin-bottom: 10px;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 10px;
+                justify-content: flex-start; /* Alinea los elementos a la izquierda */
+                font-size: 1.5em;
+            }
+
+            .info p {
+                flex: 1;
+                margin-right: 20px; /* Reduce el margen derecho para despegar más del borde derecho */
+            }
+
+            .info img {
+                width: 250px;
+                border: 5px;
+                margin-right: 20px; /* Separa la imagen del texto, alineada a la izquierda */
+            }
+
+            .albumes {
+                display: flex;
+                justify-content: space-between; /* Alinea los álbumes horizontalmente */
+                padding: 20px;
+            }
+
+            .album {
+                background-color: #2c8732; /* Fondo verde */
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+                width: 30%; /* Cada álbum ocupa el 30% del ancho */
+            }
+
+            .album img {
+                width: 250px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            .album h3 {
+                font-size: 1.5em;
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="artista">
+                <h1>Travieso Scott</h1>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <img src="https://th.bing.com/th/id/OIP.bfUiAwRQLlKGzz-czt8D5AHaEK?rs=1&pid=ImgDetMain" alt="Travis Scott">
+            <p>
+                Travis Scott, cuyo nombre real es Jacques Bermon Webster II, 
+                nació el 30 de abril 
+                <br> de 1991 en Houston, Texas.sEs un rapero, 
+                cantante, compositor y productor musical <br> estadounidense 
+                conocido por su estilo único que mezcla  hip hop, trap y rap <br>
+                psicodélico. Scott ganó popularidad con sus mixtapes “Owl Pharaoh”
+                y <br> “Days Before Rodeo”,  y alcanzó el éxito comercial con su álbum 
+                debut “Rodeo” <br> en 2015. Su tercer álbum, “Astroworld” (2018), recibió 
+                aclamación crítica y generó <br> su primer sencillo número uno en el 
+                Billboard Hot 100, “Sicko Mode”.Además de su <br> carrera musical, 
+                es conocido por sus enérgicas presentaciones en vivo y su influencia en la moda.
+            </p>
+        </div>
+
+        <div class="albumes">
+            <div class="album">
+                <img src="https://i.pinimg.com/1200x/99/4c/db/994cdb1ab19b4f5d86401391319ec55c.jpg" alt="Days before rodeo">
+                
+                <a href="https://open.spotify.com/intl-es/album/54Y471E7GNBSOXjZtqONId"target="_blank" ><h3>Days before rodeo</h3><h3>Rodeo</h3></a>
+            </div>
+            <div class="album">
+                
+                <img src="https://dx72k0ec4onep.cloudfront.net/product/2493/Y4CDTS011474964299-1280x1280-Y4CDTS01.jpg" alt="Rodeo">
+                <a href="https://open.spotify.com/intl-es/album/4PWBTB6NYSKQwfo79I3prg"target="_blank" ><h3>Rodeo</h3></a>
+                
+            </div>
+            <div class="album">
+                <img src="https://th.bing.com/th/id/OIP.rPiDTcnaeZuGL0CKOkJ7hQHaHW?rs=1&pid=ImgDetMain" alt="Astroworld">
+                <a href="https://open.spotify.com/intl-es/album/41GuZcammIkupMPKH2OJ6I"target="_blank" ><h3>Astroworld</h3></a>
+            </div>
+        </div>
+    </body>
+</html>
